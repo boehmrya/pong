@@ -78,8 +78,8 @@ var myGameArea = {
 
 
 // event listeners
-document.addEventListener("keydown", keyDownHandler, false);
-document.addEventListener("keyup", keyUpHandler, false);
+document.addEventListener("keydown", paddle.keyDownHandler, false);
+document.addEventListener("keyup", paddle.keyUpHandler, false);
 
 // initialize game
 myGameArea.start();
